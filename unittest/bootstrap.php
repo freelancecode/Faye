@@ -1,6 +1,9 @@
 <?php
 
 define('DS', DIRECTORY_SEPARATOR);
-define('DOCROOT', realpath(dirname(__FILE__)).DS);
+define('DOCROOT', '/var/www/testlab/Faye/');
+define('__SITE_PATH', DOCROOT);
 
-require_once 'simpletest'.DS.'autorun.php';
+require_once DOCROOT.'unittest'.DS.'simpletest'.DS.'autorun.php';
+
+require_once DOCROOT.'utility'.DS.'String.class.php';
