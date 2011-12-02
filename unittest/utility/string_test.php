@@ -20,6 +20,7 @@ class StringTest extends UnitTestCase
             'This is a string unit test',
         );
         
+
         foreach( $data as $key => $str )
         {
             $this->assertEqual( $expected[$key], String::hyphenate($str) );
@@ -113,5 +114,4 @@ class StringTest extends UnitTestCase
             $this->assertEqual( $expected[$key], String::spaceSeparate($str) );
         }
     }
-    
 }
