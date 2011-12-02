@@ -1,6 +1,5 @@
 <?php
 
-
 if( ! defined('DOCROOT') )
 {
     require_once '/var/www/testlab/Faye/unittest/bootstrap.php';

@@ -7,3 +7,4 @@ define('__SITE_PATH', DOCROOT);
 require_once DOCROOT.'unittest'.DS.'simpletest'.DS.'autorun.php';
 
 require_once DOCROOT.'utility'.DS.'String.class.php';
+require_once DOCROOT.'utility'.DS.'Number.class.php';
